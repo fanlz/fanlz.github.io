@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>CSS垂直居中的几种方法 | Fanlz&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="##方法一把div的显示方式设置为表格，即可使用表格的vertical-align属性html12345&amp;lt;div class=&quot;wrapper&quot;&amp;gt;    &amp;lt;div class=&quot;cell&quot;&amp;gt;        &amp;lt;div class=&quot;content&quot;&amp;gt;content&amp;lt;/div&amp;gt;    &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+css12345.w">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CSS垂直居中的几种方法">
+<meta property="og:url" content="http://fanlz.com/2015/07/13/vertical-align-center/index.html">
+<meta property="og:site_name" content="Fanlz's Blog">
+<meta property="og:description" content="##方法一把div的显示方式设置为表格，即可使用表格的vertical-align属性html12345&amp;lt;div class=&quot;wrapper&quot;&amp;gt;    &amp;lt;div class=&quot;cell&quot;&amp;gt;        &amp;lt;div class=&quot;content&quot;&amp;gt;content&amp;lt;/div&amp;gt;    &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+css12345.w">
+<meta property="og:image" content="http://fanpic-img.stor.sinaapp.com/original/228a7d4c6bcf00c7e97d4d39abb632d4.jpg">
+<meta property="og:updated_time" content="2015-08-26T17:10:40.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CSS垂直居中的几种方法">
+<meta name="twitter:description" content="##方法一把div的显示方式设置为表格，即可使用表格的vertical-align属性html12345&amp;lt;div class=&quot;wrapper&quot;&amp;gt;    &amp;lt;div class=&quot;cell&quot;&amp;gt;        &amp;lt;div class=&quot;content&quot;&amp;gt;content&amp;lt;/div&amp;gt;    &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+css12345.w">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  
+  
+    <link rel="stylesheet" href="/scrollLoading/style.css" type="text/css">
+  
+  
+
+
+  
+    <style type="text/css">
+      .logo { background-image:url(http://fanlz.com/img/my-logo1.png); }
+    </style>
+  
+
+  
+    <link href='//fonts.useso.com/css?family=Titillium+Web:300,400,600' rel='stylesheet' type='text/css'>
+    <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div class="container">
+      <div class="container-inner">
+        <div id="header-title">
+          <h1 class="logo-wrap">
+            <a href="/" class="logo"></a>
+          </h1>
+          
+            <h2 class="subtitle-wrap">
+              <p class="subtitle">JUST DO FE !</p>
+            </h2>
+          
+        </div>
+        <div id="header-inner" class="nav-container">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          <div class="nav-container-inner">
+            <ul id="main-nav">
+              
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="/">主页</a></li>
+              
+                    
+                  
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="/about/index.html">关于</a></li>
+              
+            </ul>
+            <nav id="sub-nav">
+              <div id="search-form-wrap">
+                <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="搜索"><input type="hidden" name="sitesearch" value="http://fanlz.com"></form>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <div class="container">
+      <div class="main-body container-inner">
+        <div class="main-body-inner">
+          <section id="main">
+            <div class="main-body-header">
+
+              <h1 class="header">未分类</h1>
+            </div>
+            <div class="main-body-content">
+              
+  <article id="post-vertical-align-center" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+      <!--  -->
+      
+        <header class="article-header">
+          
+  
+    <h1 class="article-title" itemprop="name">
+      CSS垂直居中的几种方法
+    </h1>
+  
+
+        </header>
+      
+      <p class="article-byline">
+        <a href="/2015/07/13/vertical-align-center/" class="article-date">
+  <time datetime="2015-07-13T00:15:28.000Z" itemprop="datePublished">2015-07-13</time>
+</a>
+      </p>
+      <div class="article-entry" itemprop="articleBody">
+        <p><img src="http://fanpic-img.stor.sinaapp.com/original/228a7d4c6bcf00c7e97d4d39abb632d4.jpg" alt=""></p>
+<p>##方法一<br>把div的显示方式设置为表格，即可使用表格的vertical-align属性<br>html<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"wrapper"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"cell"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"content"</span>&gt;</span>content<span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>css<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.wrapper</span><span class="rules">&#123;<span class="rule"><span class="attribute">display</span>:<span class="value">table</span></span>;&#125;</span></span><br><span class="line"><span class="class">.cell</span><span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">display</span>:<span class="value">table-cell</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">vertical-align</span>:<span class="value">middle</span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="优点:">优点:</h3><p>content 可以动态改变高度，当wrapper里没有足够空间时，content不会被截断</p>
+<h3 id="缺点:">缺点:</h3><p>老的IE版本中无效，嵌套标签多</p>
+<h2 id="方法二">方法二</h2><p>使用绝对定位，把div的top设置为50%，margin-top设置为负的一半content高度，这意味着元素必须在css中指定固定高度<br>html<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"content"</span>&gt;</span>content<span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>css<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.content</span><span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">position</span>:<span class="value">absolute</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">top</span>:<span class="value"><span class="number">50%</span></span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">height</span>:<span class="value"><span class="number">240px</span></span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">margin-top</span>:<span class="value">-<span class="number">120px</span></span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="优点:-1">优点:</h3><p>浏览器兼容性好，不需要嵌套标签</p>
+<h3 id="缺点:-1">缺点:</h3><p>content的高度固定，没有足够空间时，content会隐藏</p>
+<h2 id="方法三">方法三</h2>
+      </div>
+      <footer class="article-footer">
+        <a data-url="http://fanlz.com/2015/07/13/vertical-align-center/" data-id="cidt1n4bx0000devxm3lfecpk" class="article-share-link">分享到</a>
+        
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/css/">css</a></li></ul>
+
+      </footer>
+    </div>
+  </article>
+  
+
+            </div>
+          </section>
+          <aside id="sidebar">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+  <div class="sidebar-top">
+    <p>关注我 :</p>
+    <ul class="social-links">
+      
+        <li><a class="social-tooltip" title="github" href="https://github.com/fanlz" target="_blank"><i id="icon-github" class="icon"></i></a></li>
+      
+        <li><a class="social-tooltip" title="weibo" href="http://www.weibo.com/fanlzcn" target="_blank"><i id="icon-weibo" class="icon"></i></a></li>
+      
+        <li><a class="social-tooltip" title="rss" href="/atom.xml" target="_blank"><i id="icon-rss" class="icon"></i></a></li>
+      
+    </ul>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/07/21/horizontal-center/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <p class="article-nav-title">
+        
+          CSS水平居中常用方法
+        
+      </p>
+      <i class="icon" id="icon-chevron-right"></i>
+    </a>
+  
+  
+</nav>
+
+  
+  <div class="widgets-container">
+    
+      
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul id="recent-post" class="">
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2015/07/25/block-inline/" class="thumbnail">
+  
+    <span style="background-image:url(http://fanpic-img.stor.sinaapp.com/original/315daa7d9b7931c6684cf1d609010f0e.jpg
+)" alt="块级元素与行内元素" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"></p>
+              <p class="item-title"><a href="/2015/07/25/block-inline/" class="title">块级元素与行内元素</a></p>
+              <p class="item-date"><time datetime="2015-07-25T08:10:10.000Z" itemprop="datePublished">2015-07-25</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2015/07/24/css-selector/" class="thumbnail">
+  
+    <span style="background-image:url(http://fanpic-img.stor.sinaapp.com/original/6295e8ae1ac742cfa7c20a1b8b37c4fb.jpg
+)" alt="CSS选择器" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"></p>
+              <p class="item-title"><a href="/2015/07/24/css-selector/" class="title">CSS选择器</a></p>
+              <p class="item-date"><time datetime="2015-07-24T00:10:18.000Z" itemprop="datePublished">2015-07-24</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2015/07/21/horizontal-center/" class="thumbnail">
+  
+    <span style="background-image:url(http://fanpic-img.stor.sinaapp.com/original/6097959e8b2e499230f707807971096f.jpg
+)" alt="CSS水平居中常用方法" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"></p>
+              <p class="item-title"><a href="/2015/07/21/horizontal-center/" class="title">CSS水平居中常用方法</a></p>
+              <p class="item-date"><time datetime="2015-07-21T00:15:38.000Z" itemprop="datePublished">2015-07-21</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2015/07/13/vertical-align-center/" class="thumbnail">
+  
+    <span style="background-image:url(http://fanpic-img.stor.sinaapp.com/original/228a7d4c6bcf00c7e97d4d39abb632d4.jpg
+)" alt="CSS垂直居中的几种方法" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"></p>
+              <p class="item-title"><a href="/2015/07/13/vertical-align-center/" class="title">CSS垂直居中的几种方法</a></p>
+              <p class="item-date"><time datetime="2015-07-13T00:15:28.000Z" itemprop="datePublished">2015-07-13</time></p>
+            </div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+    
+      
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">七月 2015</a><span class="archive-list-count">4</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/css/">css</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/html/">html</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-float">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/css/" style="font-size: 20px;">css</a> <a href="/tags/html/" style="font-size: 10px;">html</a>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">链接</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="http://hexo.io">Hexo</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+    
+  </div>
+</aside>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+  
+  <div class="container">
+    <div class="container-inner">
+      <a id="back-to-top" href="javascript:;"><i class="icon" id="icon-angle-up"></i></a>
+      <div class="credit">
+        <h1 class="logo-wrap">
+          <a href="/" class="logo"></a>
+        </h1>
+        <p>&copy; 2015 Fanlz</p>
+        <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+
+
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+
+
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+
+  <script src="/scrollLoading/jquery.scrollLoading.js" type="text/javascript"></script>
+  <script src="/scrollLoading/main.js" type="text/javascript"></script>
+
+
+<script src="/js/html-patch.js" type="text/javascript"></script>
+<script src="/js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>
