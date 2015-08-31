@@ -4,7 +4,7 @@
   <subtitle><![CDATA[JUST DO FE !]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://fanlz.com/"/>
-  <updated>2015-08-31T12:49:54.000Z</updated>
+  <updated>2015-08-31T12:49:57.000Z</updated>
   <id>http://fanlz.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://fanlz.com/2015/07/25/block-inline/"/>
     <id>http://fanlz.com/2015/07/25/block-inline/</id>
     <published>2015-07-25T08:10:10.000Z</published>
-    <updated>2015-08-31T12:49:54.000Z</updated>
+    <updated>2015-08-31T12:49:57.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://fanpic-img.stor.sinaapp.com/original/e7c53f5de79f1d025565d265eb377157.jpg" alt=""><br>对于前端新手来说，第一次对HTML排版感到困惑，可能是没有正确区分块级元素和行内元素，因为这两种元素与生俱来的特性是有一些区别的，常常导致很多样式不能出现理想的效果。通常从CSS样式来说，HTML元素可以简单的分为块级元素(block-level elements)和行内元素(inline elements)。</p>
 <p>块级元素 一个块级元素大致有以下特性：</p>
 <ul>
