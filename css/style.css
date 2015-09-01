@@ -80,7 +80,7 @@
 .article-entry ol,
 .widget dl,
 .article-entry dl {
-  line-height: 1.6em;
+  line-height: 1.4em;
 }
 .widget ul ul,
 .article-entry ul ul,
@@ -512,7 +512,7 @@ body {
   border: none !important;
   outline: none !important;
   background: none !important;
-  line-height: 1.6em;
+  line-height: 1.4em;
   -webkit-transition: 0.2s ease-in;
   -moz-transition: 0.2s ease-in;
   -ms-transition: 0.2s ease-in;
@@ -684,7 +684,7 @@ body {
   margin-bottom: 6px;
 }
 .widget {
-  line-height: 1.6em;
+  line-height: 1.4em;
   word-wrap: break-word;
   font-size: 0.9em;
   color: #777;
@@ -896,8 +896,8 @@ body {
   overflow: hidden;
 }
 .article-meta {
-  height: 1.6em;
-  line-height: 1.6em;
+  height: 1.4em;
+  line-height: 1.4em;
   overflow: hidden;
 }
 .article-meta:before,
@@ -999,9 +999,9 @@ body {
   position: relative;
   color: #aaa;
   font-size: 16px;
-  line-height: 1.6em;
+  line-height: 1.4em;
   overflow: hidden;
-  height: 6.4em;
+  height: 5.6em;
 }
 .article-summary:hover .thumbnail .thumbnail-image {
   opacity: 0.7;
@@ -1041,7 +1041,7 @@ a.article-title:hover {
   color: #555;
   font-size: 18px;
   font-weight: 300;
-  line-height: 1.6em;
+  line-height: 1.4em;
 }
 .article-entry:before,
 .article-entry:after {
@@ -1053,7 +1053,7 @@ a.article-title:hover {
 }
 .article-entry p,
 .article-entry table {
-  margin: 1.6em 0;
+  margin: 1.4em 0;
 }
 .article-entry h1,
 .article-entry h2,
@@ -1085,8 +1085,8 @@ a.article-title:hover {
 .article-entry ul,
 .article-entry ol,
 .article-entry dl {
-  margin-top: 1.6em;
-  margin-bottom: 1.6em;
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
 }
 .article-entry img,
 .article-entry video {
@@ -1115,12 +1115,12 @@ a.article-title:hover {
 .article-entry blockquote {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.4em;
-  margin: 1.6em 20px;
+  margin: 1.4em 20px;
   text-align: center;
 }
 .article-entry blockquote footer {
   font-size: 14px;
-  margin: 1.6em 0;
+  margin: 1.4em 0;
   font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
 }
 .article-entry blockquote footer cite:before {
@@ -1183,9 +1183,9 @@ a.article-title:hover {
 }
 .article-footer {
   font-size: 14px;
-  line-height: 1.6em;
+  line-height: 1.4em;
   border-top: 1px solid #ddd;
-  padding-top: 1.6em;
+  padding-top: 1.4em;
 }
 .article-footer:before,
 .article-footer:after {
@@ -1405,7 +1405,7 @@ a.article-title:hover {
   -moz-transition: color 0.2s;
   -ms-transition: color 0.2s;
   transition: color 0.2s;
-  line-height: 1.6em;
+  line-height: 1.4em;
 }
 .archive-article-title:hover {
   color: #3b8dbd;
@@ -1484,7 +1484,7 @@ a.article-title:hover {
   background: #33363b;
   margin-top: 60px;
   color: #aaa;
-  line-height: 1.6em;
+  line-height: 1.4em;
 }
 #footer a {
   color: #ccc;
@@ -1533,7 +1533,7 @@ a.article-title:hover {
   border-width: 1px 0;
   overflow: auto;
   color: #ccc;
-  line-height: 22.400000000000002px;
+  line-height: 19.599999999999998px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -1590,7 +1590,7 @@ a.article-title:hover {
   padding-right: 20px;
 }
 .article-entry .highlight .line {
-  height: 22.400000000000002px;
+  height: 19.599999999999998px;
 }
 .article-entry .gist {
   margin: 0 -20px;
