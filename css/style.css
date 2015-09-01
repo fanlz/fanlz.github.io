@@ -1753,6 +1753,9 @@ i.icon:before {
 #icon-google_plus:before {
   content: "\f0d5";
 }
+#icon-email:before {
+  content: "\f0e0";
+}
 #icon-github:before {
   content: "\f09b";
 }
