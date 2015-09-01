@@ -1,1 +1,1 @@
-#This is my blog,Thanks for hexo!
+#Thanks for hexo!
