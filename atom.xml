@@ -4,7 +4,7 @@
   <subtitle><![CDATA[JUST DO FE !]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://fanlz.com/"/>
-  <updated>2015-08-31T12:49:57.000Z</updated>
+  <updated>2015-10-28T02:51:46.000Z</updated>
   <id>http://fanlz.com/</id>
   
   <author>
@@ -15,11 +15,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Building Things With Your Friends]]></title>
+    <link href="http://fanlz.com/2015/10/28/building/"/>
+    <id>http://fanlz.com/2015/10/28/building/</id>
+    <published>2015-10-28T00:15:28.000Z</published>
+    <updated>2015-10-28T02:51:46.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://fanpic-img.stor.sinaapp.com/original/5249bc56b634e05ca1590532dfcec11f.jpg" alt=""></p>
+<p>A couple years ago I became obsessed with the idea of buying an island. I mean, I’d always been obsessed with it, but my obsession shifted from the idea of buying the island into the action of buying it. I wasn’t fantasizing about the things I’d build on the island– I was looking up property tax rates.</p>
+<p>When I’d pull myself away from the tax tables and go back to thinking about what it would actually be like to have an island, all of my imagined scenarios involved my friends. I wanted it to be like a summer camp that we built and enjoyed together.</p>
+<p>So I found an island off the coast of Halifax, put in an offer, and emailed twenty of my friends, asking if they wanted to buy this island with me. Nine said yes, so we bought it.</p>
+<p>The whole process felt familiar, like deja vu. Then it hit me– I’d done this exact same thing before in college when I organized five friends and we bought a huge school bus together. We gutted the bus, rebuilt the interior, and traveled all around the US and even to Canada with it.</p>
+<p>This has sort of become my thing. I organize big, physical, real-life communities for me and my friends. Even traveling is like this. I’m always setting up cruises or Japan train trips for my friends.</p>
+<p>Socially I want two things: I want to deepen existing important relationships, and I want to make new ones in an efficient way.</p>
+<p>The primary method we have for deepening relationships is sharing experiences. The variety of these experiences and the level of involvement seems to matter. Watching a lot of movies with someone isn’t going to make you great friends, but maybe cutting trails through a thick forest on your island will.</p>
+<p>Doing projects together allows you to see how the other person thinks and works, and teaches you how to work together. You see how the person celebrates success, and you see how they cope with the inevitable setbacks, like the time our boat died in the middle of the harbor during a particularly cold and foggy hurricane.</p>
+<p>That’s why these things I create always involve work that needs to be done. We spent every day for three months building that school bus. Every trip to the island is at least as much labor as it is talking around a campfire. Even on cruises we took turns getting advice from each other during lunches, and we made trophies to give out to passengers.</p>
+<p>These projects also serve as flags to attract other people with similar interests. Some of my best friends have gone on my Japan trips, but so have people I’ve barely known. Because the type of trip I lead appeals to them, I can be optimistic about wanting to get to know that person. A couple of the island owners were new friends, who have now become better friends.</p>
+<p>Think about what you can build for your friends, not only because it’s a way to make your friends’ lives better, but because it also makes your life better.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://fanpic-img.stor.sinaapp.com/original/5249bc56b634e05ca1590532dfcec11f.jpg" alt=""></p>
+<p>A couple years ago I became ob]]>
+    </summary>
+    
+      <category term="English" scheme="http://fanlz.com/tags/English/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[块级元素与行内元素]]></title>
     <link href="http://fanlz.com/2015/07/25/block-inline/"/>
     <id>http://fanlz.com/2015/07/25/block-inline/</id>
     <published>2015-07-25T08:10:10.000Z</published>
-    <updated>2015-08-31T12:49:57.000Z</updated>
+    <updated>2015-09-16T06:55:00.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://fanpic-img.stor.sinaapp.com/original/e7c53f5de79f1d025565d265eb377157.jpg" alt=""><br>对于前端新手来说，第一次对HTML排版感到困惑，可能是没有正确区分块级元素和行内元素，因为这两种元素与生俱来的特性是有一些区别的，常常导致很多样式不能出现理想的效果。通常从CSS样式来说，HTML元素可以简单的分为块级元素(block-level elements)和行内元素(inline elements)。</p>
 <p>块级元素 一个块级元素大致有以下特性：</p>
 <ul>
@@ -86,7 +114,7 @@
     <link href="http://fanlz.com/2015/07/21/horizontal-center/"/>
     <id>http://fanlz.com/2015/07/21/horizontal-center/</id>
     <published>2015-07-21T00:15:38.000Z</published>
-    <updated>2015-09-01T14:03:37.000Z</updated>
+    <updated>2015-09-01T14:03:38.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://fanpic-img.stor.sinaapp.com/original/6097959e8b2e499230f707807971096f.jpg" alt=""></p>
 <h2 id="方法一">方法一</h2><p>平时我们用的最多的方法，通过确定元素的宽度，并且设定元素margin为auto，例如：</p>
 <p></p><p data-height="182" data-theme-id="18430" data-slug-hash="jbOzPZ" data-default-tab="result" data-user="fanlz" class="codepen">See the Pen <a href="http://codepen.io/fanlz/pen/jbOzPZ/" target="_blank" rel="external">jbOzPZ</a> by fanlz (<a href="http://codepen.io/fanlz" target="_blank" rel="external">@fanlz</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><p></p>
