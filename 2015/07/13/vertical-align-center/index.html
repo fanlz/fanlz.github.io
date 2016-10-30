@@ -14,7 +14,7 @@ css12345.w">
 <meta property="og:description" content="##方法一把div的显示方式设置为表格，即可使用表格的vertical-align属性html12345&amp;lt;div class=&quot;wrapper&quot;&amp;gt;    &amp;lt;div class=&quot;cell&quot;&amp;gt;        &amp;lt;div class=&quot;content&quot;&amp;gt;content&amp;lt;/div&amp;gt;    &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
 css12345.w">
 <meta property="og:image" content="http://fanpic-img.stor.sinaapp.com/original/228a7d4c6bcf00c7e97d4d39abb632d4.jpg">
-<meta property="og:updated_time" content="2015-08-31T12:43:16.000Z">
+<meta property="og:updated_time" content="2016-10-30T12:55:11.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CSS垂直居中的几种方法">
 <meta name="twitter:description" content="##方法一把div的显示方式设置为表格，即可使用表格的vertical-align属性html12345&amp;lt;div class=&quot;wrapper&quot;&amp;gt;    &amp;lt;div class=&quot;cell&quot;&amp;gt;        &amp;lt;div class=&quot;content&quot;&amp;gt;content&amp;lt;/div&amp;gt;    &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
@@ -272,11 +272,7 @@ css12345.w">
 <p>css<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.wrapper</span><span class="rules">&#123;<span class="rule"><span class="attribute">display</span>:<span class="value">table</span></span>;&#125;</span></span><br><span class="line"><span class="class">.cell</span><span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">display</span>:<span class="value">table-cell</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">vertical-align</span>:<span class="value">middle</span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure></p>
 <h3 id="优点:">优点:</h3><p>content 可以动态改变高度，当wrapper里没有足够空间时，content不会被截断</p>
 <h3 id="缺点:">缺点:</h3><p>老的IE版本中无效，嵌套标签多</p>
-<h2 id="方法二">方法二</h2><p>使用绝对定位，把div的top设置为50%，margin-top设置为负的一半content高度，这意味着元素必须在css中指定固定高度<br>html<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"content"</span>&gt;</span>content<span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-<p>css<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.content</span><span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">position</span>:<span class="value">absolute</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">top</span>:<span class="value"><span class="number">50%</span></span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">height</span>:<span class="value"><span class="number">240px</span></span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">margin-top</span>:<span class="value">-<span class="number">120px</span></span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure></p>
-<h3 id="优点:-1">优点:</h3><p>浏览器兼容性好，不需要嵌套标签</p>
-<h3 id="缺点:-1">缺点:</h3><p>content的高度固定，没有足够空间时，content会隐藏</p>
-<h2 id="方法三">方法三</h2>
+
       </div>
       <footer class="article-footer">
         
@@ -349,6 +345,25 @@ css12345.w">
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul id="recent-post" class="">
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2016/10/30/xi/" class="thumbnail">
+  
+    <span class="thumbnail-image thumbnail-none"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"></p>
+              <p class="item-title"><a href="/2016/10/30/xi/" class="title">“习核心”正式登场</a></p>
+              <p class="item-date"><time datetime="2016-10-30T12:57:07.000Z" itemprop="datePublished">2016-10-30</time></p>
+            </div>
+          </li>
         
           <li>
             
@@ -430,26 +445,6 @@ css12345.w">
             </div>
           </li>
         
-          <li>
-            
-            <div class="item-thumbnail">
-              
-<a href="/2015/07/13/vertical-align-center/" class="thumbnail">
-  
-    <span style="background-image:url(http://fanpic-img.stor.sinaapp.com/original/228a7d4c6bcf00c7e97d4d39abb632d4.jpg
-)" alt="CSS垂直居中的几种方法" class="thumbnail-image"></span>
-  
-</a>
-
-            </div>
-            
-            <div class="item-inner">
-              <p class="item-category"></p>
-              <p class="item-title"><a href="/2015/07/13/vertical-align-center/" class="title">CSS垂直居中的几种方法</a></p>
-              <p class="item-date"><time datetime="2015-07-13T00:15:28.000Z" itemprop="datePublished">2015-07-13</time></p>
-            </div>
-          </li>
-        
       </ul>
     </div>
   </div>
@@ -462,7 +457,7 @@ css12345.w">
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">十一月 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">七月 2015</a><span class="archive-list-count">4</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">十月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">十一月 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">七月 2015</a><span class="archive-list-count">4</span></li></ul>
     </div>
   </div>
 
@@ -508,7 +503,7 @@ css12345.w">
         <h1 class="logo-wrap">
           <a href="/" class="logo"></a>
         </h1>
-        <p>&copy; 2015 Fanlz</p>
+        <p>&copy; 2016 Fanlz</p>
         <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
       </div>
     </div>
