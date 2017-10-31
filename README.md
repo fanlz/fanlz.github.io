@@ -1,1 +1,1 @@
-#Thanks for hexo!
+github pages
